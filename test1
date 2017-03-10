@@ -1,0 +1,75 @@
+Last login: Fri Mar 10 21:08:13 on ttys000
+bogon:~ deng$ cd Desktop/
+bogon:Desktop deng$ cd git
+bogon:git deng$ cd test-about-react/
+bogon:test-about-react deng$ touch test1.txt "hello world"
+bogon:test-about-react deng$ cat test1.txt 
+bogon:test-about-react deng$ ls
+LICENSE		hello world	test1.txt
+bogon:test-about-react deng$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	hello world
+	test1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+bogon:test-about-react deng$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+bogon:test-about-react deng$ git add *
+bogon:test-about-react deng$ git commit -m "hello world hahaha"
+[master 4cf18e3] hello world hahaha
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello world
+ create mode 100644 test1.txt
+bogon:test-about-react deng$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/suredjh/test-about-react.git
+   c3c57df..4cf18e3  master -> master
+bogon:test-about-react deng$ cd ..
+bogon:git deng$ cd ..
+bogon:Desktop deng$ cd react
+bogon:react deng$ git clone https://github.com/suredjh/test-about-react.git
+Cloning into 'test-about-react'...
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+bogon:react deng$ ls
+test-about-react
+bogon:react deng$ cd test-about-react/
+bogon:test-about-react deng$ ls
+LICENSE		hello world	test1.txt
+bogon:test-about-react deng$ vim test1.txt 
+
+this is a test file  
+
+today is 20170310
+
+
+author   djh
+
+adress zhenjiang
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
